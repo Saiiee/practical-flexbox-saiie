@@ -4,8 +4,220 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+    
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding: 4px;
+            height: calc(100vh - 8px);
+        }
+
+        nav, main, aside, footer {
+            border: 1px solid black;
+            padding: 4px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            height: 40px;
+            width: 40px;
+            background-color: red;
+        }
+        
+        .boxes {
+            height: 35px;
+            width: 45px;
+            background-color: red;
+            
+        }
+        .n2 {
+            display: flex;
+            align-items: center;
+        }
+
+       .n1 {
+        display: flex;
+        align-items: center;    
+        gap: 5px;
+       }
+
+       
+
+       .m1 {
+        border: 1px solid black;
+        padding: 4px;
+       }
+
+       .wala {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 5px;
+       }
+
+       .item {
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+        }
+
+        .m2 {
+            border: 1px solid black;
+            padding: 4px;
+            margin-top: 5px;
+        }
+
+        .meron {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .items {
+            border: 1px solid black;
+            height: 150px;
+            width: 180px;
+            margin: 2px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        aside {
+            margin-left: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 25vw;
+            height: 550px;
+        }
+        
+        .asideitem {
+            border: 1px solid black;
+            height: 30px;
+        }
+
+        .footerfirst {
+        display: flex;
+        gap: 2px;
+        margin: 4px;
+        align-items: center;
+    }
+
+    .footerbox {
+        background-color: red;
+        height: 40px;
+        width: 40px;
+    }
+
+    .footersecond {
+        display: flex;
+        gap: 2px;
+        margin: 4px;
+        border: 1px solid rgb(103, 100, 100);
+    }
+
+    .footerboxes {
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+    }
+
+    .footercubes {
+        background-color: red;
+        height: 25px;
+        width: 25px;
+    }
+
+    .footercopyright {
+        display: flex;
+        justify-content: center;
+    }
+
+      </style>
 </head>
 <body>
-    <h1>FLEXBOX ONE</h1>
+    <nav>
+        <div class="n2">
+            <div class="box"></div>
+            <div>FLEXBOX</div>
+         </div>
+        <div class="n1">
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+            <div class="m1">
+                    <div class="wala">
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                    </div>
+            </div>
+                <div class="m2">
+                    <div class="meron">
+                        <div class="items"></div>
+                        <div class="items"></div>
+                        <div class="items"></div>
+                    </div>
+                </div>
+        </main>
+            <aside>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+                <div class="asideitem"></div>
+            </aside>
+    </div>
+        <footer>
+            <div class="footerfirst">
+                <div class="footerbox"></div>
+                <div class="footerflexbox">FLEXBOX</div>
+            </div>
+
+            <div class="footersecond"></div>
+
+            <div class="footerthird">
+                <div class="footerboxes">
+                    <div class="footercubes"></div>
+                    <div class="footercubes"></div>
+                    <div class="footercubes"></div>
+                    <div class="footercubes"></div>
+                    <div class="footercubes"></div>
+                </div>
+
+                <div class="footercopyright">©Copyrights All rights reserved</div>
+            </div>
+        </footer>
 </body>
 </html>
