@@ -1,0 +1,269 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        padding: 4px;
+        height: calc(100vh - 8px);
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+    }
+
+    nav,
+    main,
+    aside,
+    footer {
+        border: 1px solid black;
+        padding: 4px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ambot {
+        display: flex;
+        align-items: center;
+        margin: 2px;
+        gap: 2px;
+    }
+
+    .navboxone {
+        background-color: red;
+        height: 40px;
+        width: 40px;
+    }
+
+    .navmain {
+        display: flex;
+        gap: 2px;
+        margin: 2px;
+    }
+
+    .navmain2boxes {
+        background-color: red;
+        height: 30px;
+        width: 50px;
+    }
+
+    .center {
+        display: flex;
+        gap: 4px;
+        flex-grow: 1;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        gap: 4px;
+    }
+
+
+    .namo {
+        display: flex;
+        flex-grow: 1;
+    
+    }
+
+    .centerfirst {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        flex-grow: 1;
+        width: 50%;
+        border: 1px solid black;
+    }
+
+    .centerfirstboxes1 {
+        border: 1px solid black;
+        height: 150px;
+        width: 180px;
+        margin: 2px;
+
+    }
+
+    .centerfirstboxes2 {
+        border: 1px solid black;
+        height: 150px;
+        width: 180px;
+        margin: 2px;
+
+    }
+
+
+    .centersecond {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 50%; 
+        gap: 4px;
+        padding: 4px;
+        border: 1px solid black;
+    }
+
+    .centersecondboxes {
+        border: 1px solid black;
+        height: 80px;
+        width: 90px;
+
+
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .asideboxes {
+        border: 1px solid black;
+        margin: 2px;
+        height: 35px;
+        width: 15vw;
+    }
+
+    .footerfirst {
+        display: flex;
+        gap: 2px;
+        margin: 4px;
+        align-items: center;
+    }
+
+    .footerbox {
+        background-color: red;
+        height: 40px;
+        width: 40px;
+    }
+
+    .footersecond {
+        display: flex;
+        gap: 2px;
+        margin: 4px;
+        border: 1px solid rgb(103, 100, 100);
+    }
+
+    .footerboxes {
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+    }
+
+    .footercubes {
+        background-color: red;
+        height: 25px;
+        width: 25px;
+    }
+
+    .footercopyright {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+
+
+
+    <nav>
+        <div class="ambot">
+            <div class="navboxone"></div>
+            <div class="navflexbox">FLEXBOX</div>
+        </div>
+        <div class="navmain">
+            <div class="navmain2boxes"></div>
+            <div class="navmain2boxes"></div>
+        </div>
+    </nav>
+
+    <div class="center">
+        <main>
+
+            <div class="centersecond">
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+                <div class="centersecondboxes"></div>
+            </div>
+
+            <div class="namo">
+                <div class="centerfirst">
+                    <div class="centerboxes1">
+                        <div class="centerfirstboxes1"></div>
+                        <div class="centerfirstboxes1"></div>
+                    </div>
+                    <div class="centerboxes2">
+                        <div class="centerfirstboxes2"></div>
+                        <div class="centerfirstboxes2"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+            <div class="asideboxes"></div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footerfirst">
+            <div class="footerbox"></div>
+            <div class="footerflexbox">FLEXBOX</div>
+        </div>
+
+        <div class="footersecond"></div>
+
+        <div class="footerthird">
+            <div class="footerboxes">
+                <div class="footercubes"></div>
+                <div class="footercubes"></div>
+                <div class="footercubes"></div>
+                <div class="footercubes"></div>
+                <div class="footercubes"></div>
+            </div>
+
+            <div class="footercopyright">©Copyrights All rights reserved</div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
